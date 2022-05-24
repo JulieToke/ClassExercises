@@ -14,16 +14,16 @@ namespace CodeExamples
         /// </summary>
         /// <param name="items"></param>
         /// <returns></returns>
-       /* public int FindMissingNumberInSortedArray(int[] items) {
-
-            var result = 0;
-            for(i = 0; i <= ; i+=)
+        public int FindMissingNumberInSortedArray(int[] items) {
+            // result begins as cumulative sum of numbers 1 - 100
+            var result = (Math.Pow(100, 2) + 100) / 2;
+            for(i = 0; i < items.Length; i++)
             {
-
+                   result =- items[i];
             }
-            
+
             return result; 
-        }*/
+        }
 
 
         /// <summary>

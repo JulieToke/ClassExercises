@@ -51,8 +51,6 @@ namespace CodeExamples
                 }
                 Console.WriteLine();
             }
-            Console.Read();
-
         }
 
         /// <summary>
@@ -65,6 +63,16 @@ namespace CodeExamples
         /// <param name="height"></param>
         public void WriteNumericPiramid(int height)
         {
+        }
+
+        // main method
+        static public void Main(String[] args)
+        {
+            // main method goes here
+            while(true)
+            {
+                
+            }
         }
     }
 }
