@@ -1,0 +1,2 @@
+# ClassExercises
+some C# exercises
