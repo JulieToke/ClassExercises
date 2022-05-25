@@ -15,14 +15,7 @@ namespace CodeExamples
         /// <param name="items"></param>
         /// <returns></returns>
         public int FindMissingNumberInSortedArray(int[] items) {
-            // result begins as cumulative sum of numbers 1 - 100
-            var result = (Math.Pow(100, 2) + 100) / 2;
-            for(i = 0; i < items.Length; i++)
-            {
-                   result =- items[i];
-            }
-
-            return result; 
+            
         }
 
 
@@ -34,7 +27,15 @@ namespace CodeExamples
         /// </summary>
         /// <param name="items"></param>
         /// <returns></returns>
-        public int FindMissingNumberInArray(int[] items) { return 0; }
+        public int FindMissingNumberInArray(int[] items) {
+            // result begins as cumulative sum of numbers 1 - 100
+            var result = (Math.Pow(100, 2) + 100) / 2;
+            for(i = 0; i < items.Length; i++)
+            {
+                   result =- items[i];
+            }
+            return result; 
+        }
 
 
         /// <summary>
@@ -46,5 +47,9 @@ namespace CodeExamples
         /// <param name="items"></param>
         /// <returns></returns>
         public int FindMissingNumberInArrayUnKnownSizes(int[] items) { return 0; }
+
+        static public void Main(String[] args) {
+            // main method goes here
+        }
     }
 }
